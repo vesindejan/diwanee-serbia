@@ -1,0 +1,17 @@
+#social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 90px 0;
+  background-color: #ffffff;
+  p {
+    font-size: 10px;
+    color: #989898;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .socialIcons {
+    margin-top: 26px;
+  }
+}
+

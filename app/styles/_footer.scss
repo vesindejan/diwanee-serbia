@@ -1,0 +1,44 @@
+
+footer {
+  background-color: #222222;
+  background-size: cover;
+  padding: 140px 0 0px 0;
+  .wrapper {
+    max-width: 920px;
+    margin: 0 auto;
+    padding-bottom: 104px;
+    display: flex;
+    justify-content: space-between;
+    .column {
+      width: 33%;
+      .city {
+        display: flex;
+        align-items: center;
+        p {
+          text-transform: uppercase;
+          color: white;
+          margin-left: 10px;
+        }
+      }
+      address {
+        color: #5a5a5a;
+        line-height: 28px;
+        a {
+          color: #5a5a5a;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  .copyrights {
+    background-color: #1e1e1e;
+    .wrapper {
+      max-width: 920px;
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 0px;
+
+    }
+  }
+
+}
