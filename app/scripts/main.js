@@ -5,7 +5,9 @@ $(document).ready(function () {
             scrollTop: $($.attr(this, 'href')).offset().top - 106
         }, 1200);
         if ($(window).width() < 1024) {
-            $('.navigation').show(600).toggleClass('mobileNavigation');
+            $('.navigation').toggleClass('mobileNavigation');
+            $('.mobileOnly').toggleClass('show');
+
         }
         event.preventDefault();
         return false;

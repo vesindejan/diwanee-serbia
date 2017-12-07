@@ -83,7 +83,7 @@ header {
   top: 80px;
   left: 0;
   right: 0;
-  height: 100vh;
+  height: calc(100vh - 106px);
   padding-top: 120px !important;
   flex-direction: column;
   background-color: rgba(0, 0, 0, 0.85);
@@ -95,9 +95,39 @@ header {
     text-align: center;
     margin-bottom: 60px;
     a {
-      color: white !important;
+      color: #999999!important;
       font-size: 18px;
       font-weight: 300 !important;
     }
   }
+  li:last-of-type {
+    margin-bottom: 0;
+    position: absolute;
+    bottom: 100px;
+    left: 30px;
+    right: 30px;
+  }
+}
+.mobileOnly {
+  display: none!important;
+  .mobileIconMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p {
+      font-size: 18px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #999999;
+    }
+    .fa  {
+      font-size: 22px;
+      color: #999999;
+      margin-left: 10px;
+    };
+  }
+}
+
+.show {
+  display: block;
 }
