@@ -17,12 +17,12 @@ footer {
         align-items: center;
         p {
           text-transform: uppercase;
-          color: #e3e4e3;
+          color: lighten($lightText,30%);
           margin-left: 10px;
         }
         .fa {
           font-size: 25px;
-          color: #c22337;
+          color: $darkRed;
         }
       }
       address {
@@ -51,6 +51,10 @@ footer {
         align-items: center;
         p {
           margin: 0;
+          a {
+            text-decoration: none;
+            color: $lightText;
+          }
         }
         .fa {
           font-size: 24px;

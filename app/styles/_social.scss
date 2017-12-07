@@ -6,7 +6,7 @@
   background-color: #ffffff;
   p {
     font-size: 14px;
-    color: #989898;
+    color: lighten($darkText,30%);
     text-transform: uppercase;
     margin: 0;
     letter-spacing: 2px;
@@ -23,7 +23,7 @@
       margin: 0 5px;
       .fa {
         font-size: 30px;
-        color: white;
+        color: lighten($lightText,50%);
       }
     }
     .icon:nth-of-type(1) {

@@ -14,7 +14,7 @@
     }
     p:nth-of-type(1) {
       font-size: 12px;
-      color: #989898;
+      color: $darkText;
       text-transform: uppercase;
       margin: 0;
       letter-spacing: 2px;
@@ -54,7 +54,7 @@
       p:nth-of-type(1) {
         text-transform: uppercase;
         font-size: 14px;
-        color: #222222;
+        color: $darkText;
         font-weight: 600;
       }
       p:nth-of-type(2) {
@@ -68,9 +68,9 @@
         button {
           padding: 11px 25px;
           font-size: 10px;
-          color: #c82d46;
+          color: $darkRed;
           text-transform: uppercase;
-          border: 2px solid #bbbbbb;
+          border: 2px solid $lightText;
           margin-right: 7px;
           background-color: transparent;
         }
@@ -79,11 +79,11 @@
     .callToAction {
       font-size: 12px;
       padding: 18px 38px;
-      color: #222222;
+      color: $darkText;
       text-transform: uppercase;
       align-self: center;
       background-color: transparent;
-      border: 2px solid #222222;
+      border: 2px solid $darkText;
     }
   }
 }
@@ -122,7 +122,7 @@
           font-size: 10px;
           color: #f1efef;
           text-transform: uppercase;
-          border: 2px solid #bbbbbb;
+          border: 2px solid $lightText;
           margin-right: 7px;
           background-color: transparent;
         }
@@ -136,7 +136,7 @@
       text-transform: uppercase;
       align-self: center;
       background-color: transparent;
-      border: 2px solid #bbbbbb;
+      border: 2px solid $lightText;
     }
   }
 }
@@ -156,7 +156,7 @@
       p:nth-of-type(1) {
         text-transform: uppercase;
         font-size: 14px;
-        color: #222222;
+        color: $darkText;
         font-weight: 600;
         margin: 0;
       }
@@ -164,7 +164,7 @@
         padding-top: 26px;
         padding-bottom: 38px;
         font-weight: 300;
-        color: #222222;
+        color: $darkText;
         margin: 0;
       }
       .buttons {
@@ -173,9 +173,9 @@
         button {
           padding: 11px 25px;
           font-size: 10px;
-          color: #cc3c55;
+          color: $darkRed;
           text-transform: uppercase;
-          border: 2px solid #bbbbbb;
+          border: 2px solid $lightText;
           margin-right: 7px;
           background-color: transparent;
         }
@@ -185,11 +185,11 @@
     .callToAction {
       font-size: 12px;
       padding: 18px 38px;
-      color: #222222;
+      color: $darkText;
       text-transform: uppercase;
       align-self: center;
       background-color: transparent;
-      border: 2px solid #222222;
+      border: 2px solid $darkText;
       margin: 0;
     }
   }
@@ -201,7 +201,7 @@
   button {
     font-size: 14px;
     padding: 18px;
-    color: #414141;
+    color: darken($darkText,30%);
     text-transform: uppercase;
     background-color: #eeeeee;
     margin: 0 auto;

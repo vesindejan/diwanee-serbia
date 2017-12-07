@@ -7,8 +7,14 @@ $(document).ready(function () {
         if ($(window).width() < 1024) {
             $('.navigation').toggleClass('mobileNavigation');
             $('.mobileOnly').toggleClass('show');
-
         }
+        event.preventDefault();
+        return false;
+    });
+    $('.logo').click(function () {
+        $('html, body').animate({
+            scrollTop: $("#header").offset().top
+        }, 1200);
         event.preventDefault();
         return false;
     });

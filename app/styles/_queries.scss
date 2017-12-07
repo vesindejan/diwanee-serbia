@@ -97,12 +97,12 @@ header {
   #frontendDev .wrapper div .buttons button {
     border: none;
     padding: 0 10px 0 0;
-    color: #c82d46;
+    color: $darkRed;
   }
   #projectManager .wrapper div .buttons button {
     border: none;
     padding: 0 10px 0 0;
-    color: #c82d46;
+    color: $darkRed;
   }
   #projectManager {
     background-color: #ffffff;
@@ -119,7 +119,7 @@ header {
   #uxUiDesigner .wrapper div .buttons button {
     border: none;
     padding: 0 10px 0 0;
-    color: #c82d46;
+    color: $darkRed;
   }
   #jobs .wrapper .frontendDev {
     margin-top: 46px;
