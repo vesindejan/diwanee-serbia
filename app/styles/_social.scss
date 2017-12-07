@@ -5,13 +5,33 @@
   padding: 90px 0;
   background-color: #ffffff;
   p {
-    font-size: 10px;
+    font-size: 14px;
     color: #989898;
     text-transform: uppercase;
     margin: 0;
+    letter-spacing: 2px;
   }
   .socialIcons {
     margin-top: 26px;
+    display: flex;
+    .icon {
+      width: 65px;
+      height: 65px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 5px;
+      .fa {
+        font-size: 30px;
+        color: white;
+      }
+    }
+    .icon:nth-of-type(1) {
+      background-color: #3e5c99;
+    }
+    .icon:nth-of-type(2) {
+      background-color: #50b5e4;
+    }
   }
 }
 

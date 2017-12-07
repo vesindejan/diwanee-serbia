@@ -32,14 +32,26 @@ footer {
   }
   .copyrights {
     background-color: #1e1e1e;
-    padding: 16px 0;
+    padding: 28px 0;
     color: #606060;
     font-size: 12px;
     .wrapper {
       max-width: 920px;
       display: flex;
+      align-items: center;
       justify-content: space-between;
-      padding-bottom: 0px;
+      padding-bottom: 0;
+      div {
+        display: flex;
+        align-items: center;
+        p {
+          margin: 0;
+        }
+        .fa {
+          font-size: 24px;
+          margin-right: 28px;
+        }
+      }
 
     }
   }
