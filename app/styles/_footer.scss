@@ -6,8 +6,9 @@ footer {
   .wrapper {
     max-width: 920px;
     margin: 0 auto;
-    padding-bottom: 104px;
+    padding: 0 10% 104px 10%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     .column {
       width: 33%;

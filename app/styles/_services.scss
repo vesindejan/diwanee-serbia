@@ -1,10 +1,12 @@
 #services {
   display: flex;
+  flex-direction: row;
   .service {
     display: flex;
     align-items: center;
     flex-direction: column;
     padding: 95px 45px 74px 45px;
+    width: 33%;
     p {
       text-align: center;
       margin: 0;
