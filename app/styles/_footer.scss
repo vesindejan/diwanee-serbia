@@ -16,7 +16,7 @@ footer {
         align-items: center;
         p {
           text-transform: uppercase;
-          color: white;
+          color: #e3e4e3;
           margin-left: 10px;
         }
       }
@@ -32,6 +32,9 @@ footer {
   }
   .copyrights {
     background-color: #1e1e1e;
+    padding: 16px 0;
+    color: #606060;
+    font-size: 12px;
     .wrapper {
       max-width: 920px;
       display: flex;
